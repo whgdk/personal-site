@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    font-family: 'Palanquin Dark', sans-serif;
+    text-transform: lowercase;
+
+    height: 100%;
+    width: 300px;
+    padding-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+}
