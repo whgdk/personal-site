@@ -1,160 +1,160 @@
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Text|Palanquin+Dark:500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Red+Hat+Text|Palanquin+Dark:500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    color: rgb(225, 182, 170);
-    text-decoration: none;
-    transition: 0.5s;
+  color: rgb(225, 182, 170);
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 a:visited {
-    color: rgb(225, 182, 170);
+  color: rgb(225, 182, 170);
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 h2 {
-    font-family: 'Red Hat Text', sans-serif;
-    color: rgb(192, 144, 132);
-
+  font-family: "Red Hat Text", sans-serif;
+  color: rgb(192, 144, 132);
 }
 
 .project p {
-    font-family: 'Red Hat Text', sans-serif;
-    color: rgb(163, 116, 105);
-    margin: 10px 0px;
-    margin-right: 200px;
+  font-family: "Red Hat Text", sans-serif;
+  color: rgb(163, 116, 105);
+  margin: 10px 0px;
+  margin-right: 200px;
 }
 
 .sidebar {
+  font-family: "Palanquin Dark", sans-serif;
+  color: rgb(192, 144, 132);
 
-    font-family: 'Palanquin Dark', sans-serif;
-    color: rgb(192, 144, 132);
+  height: 100%;
+  width: 300px;
+  margin-top: 170px;
+  padding-left: 150px;
 
-    height: 100%;
-    width: 300px;
-    margin-top: 170px;
-    padding-left: 150px;
-
-    position: fixed;
-
+  position: fixed;
 }
 
 .links {
-    text-transform: lowercase;
-    font-size: 22px;
+  text-transform: lowercase;
+  font-size: 22px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #logo {
-    max-width: 170px;
-    height: auto;
+  max-width: 170px;
+  height: auto;
 
-    display: block;
-    margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
 #name {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 15px;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 #home {
-    max-width: 914px;
-    height: auto;
+  max-width: 914px;
+  height: auto;
 
-    display: block;
-    margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 
-    padding: 7px 7px;
-    border: solid 2px rgb(225, 182, 170);
-    outline: solid 2px rgb(241, 223, 218);
-    outline-offset: 7px;
+  padding: 7px 7px;
+  border: solid 2px rgb(225, 182, 170);
+  outline: solid 2px rgb(241, 223, 218);
+  outline-offset: 7px;
 }
 
 .homepage {
-    margin-left: 300px;
-    padding-top: 60px;
+  margin-left: 300px;
+  padding-top: 60px;
 }
 
-
 .main {
-    padding-top: 250px;
-    text-align: center;
+  padding-top: 250px;
+  text-align: center;
 }
 
 .main-long {
-    padding-top: 150px;
-    text-align: center;
+  padding-top: 150px;
+  text-align: center;
 }
 
-.main p, li {
-    color: rgb(192, 144, 132);
-    font-family: 'Red Hat Text', sans-serif;
+.main p,
+li {
+  color: rgb(192, 144, 132);
+  font-family: "Red Hat Text", sans-serif;
 }
 
 ul {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 li {
-    margin: 8px 5px;
+  margin: 8px 5px;
 }
 
 .icons img {
-    max-width: 50px;
-    height: auto;
+  max-width: 50px;
+  height: auto;
 
-    margin: 20px 10px;
-    transition: 1s;
+  margin: 20px 10px;
+  transition: 1s;
 }
 
 .icons img:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .img_sensr {
-    max-width: 400px;
-    height: auto;
-    margin: 10px 10px;
+  max-width: 400px;
+  height: auto;
+  margin: 10px 10px;
 }
 
-.img_fast {
+/* .img_fast {
     max-height: 400px;
     width: auto;
     margin: 10px 10px;
     image-orientation: from-image;
+} */
+
+.img_fast19 {
+  max-width: 840px;
 }
 
 .img_ezvents {
-    max-height: 400px;
-    width: auto;
-    margin: 10px 10px;
-    image-orientation: from-image;
+  max-height: 400px;
+  width: auto;
+  margin: 10px 10px;
+  image-orientation: from-image;
 }
 
 .ezvents_background {
-    background-color: rgb(241, 223, 218);
-    width: 745px;
+  background-color: rgb(241, 223, 218);
+  width: 745px;
 }
 
 .projects {
-    padding-top: 80px;
-    margin-left: 490px;
+  padding-top: 80px;
+  margin-left: 490px;
 }
 
 .project {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
-
