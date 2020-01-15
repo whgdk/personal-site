@@ -34,12 +34,12 @@ h2 {
 
 .sidebar {
   font-family: "Palanquin Dark", sans-serif;
-  color: rgb(192, 144, 132);
+  /* color: rgb(192, 144, 132); */
 
   height: 100%;
-  width: 300px;
+  width: 400px;
   margin-top: 170px;
-  padding-left: 150px;
+  padding-left: 50px;
 
   position: fixed;
 }
@@ -58,11 +58,13 @@ h2 {
   height: auto;
 
   display: block;
-  margin: 0px auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #name {
   font-size: 36px;
+  color: rgb(225, 182, 170);
   text-align: center;
   margin-bottom: 15px;
 }
@@ -148,6 +150,11 @@ li {
 .ezvents_background {
   background-color: rgb(241, 223, 218);
   width: 745px;
+}
+
+.img_nextbest {
+  max-width: 700px;
+  height: auto;
 }
 
 .projects {
